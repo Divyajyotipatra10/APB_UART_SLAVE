@@ -64,11 +64,12 @@ Features include register writes, polling for RX FIFO full, reading back receive
 ![image](https://github.com/user-attachments/assets/28f655c8-8894-42e4-a2a2-9f8c268817b0)
 RX_DATA_LIST Equals TX_DATA_LIST(Loopback SUCCESS)
 ![image](https://github.com/user-attachments/assets/61d830e2-f1b6-40ed-a50c-c80d98098c37)
+
 TCL_CONSOLE OUTPUT
 
 # Important Notes
 1. This design assumes a 100 MHz system clock.
-2. Baudrate prescaler is set for 115200 bps.
+2. Baudrate is set for 115200 bps by setting up the control register bits [4:2] as 1_0_1.
 3. FIFO depth is parameterized and defaults to 5.(Can Be modified)
 
 
