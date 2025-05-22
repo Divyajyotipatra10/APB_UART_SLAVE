@@ -1,1 +1,1 @@
-This folder has do file strictly for Modelsim.
+This folder has a .do file strictly for Modelsim.
