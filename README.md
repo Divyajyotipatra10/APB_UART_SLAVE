@@ -49,6 +49,19 @@ This project implements a UART (Universal Asynchronous Receiver/Transmitter) sys
 | [7]    | RX FIFO FULL         |
 | [31:8] | Reserved             |
 
+## Baudrate Selector
+
+| **Bits** | **Baudrate**  |
+|----------|---------------|
+|   000    |      4800     |
+|   001    |      9600     |
+|   010    |     19200     |
+|   011    |     38400     |
+|   100    |     57600     |
+|   101    |    115200     |
+|   110    |    230400     |
+|   111    |    460800     |
+
 # Testbench
 Simulates a loopback test where:
 - UART is configured via APB.
